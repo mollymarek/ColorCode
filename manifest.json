@@ -1,0 +1,29 @@
+
+{
+    "name": "ColorCode",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Trouble navigating the web? Try ColorCode! This extension helps with dyslexia by combining color theory & accessibility design.",
+    "background": {
+        "scripts": [
+        "popup.js"
+    ],
+    "persistent": true 
+    },
+    "browser_action": {
+        "default_title": "ColorCode",
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/ColorCode-162.png",
+            "48": "/images/ColorCode-482.png",
+            "128": "/images/ColorCode-1282.png"
+          }
+      
+    },
+
+    "permissions": [
+        "https://*/*",
+        "http://*/*",
+        "tabs"
+    ]
+}
